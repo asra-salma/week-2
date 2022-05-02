@@ -1,0 +1,44 @@
+
+body{
+    font-size: 20px;
+}
+.header{
+    position: relative;
+    background-color: blue;
+    color: white;
+    height: 140px;
+    justify-content: center;
+  align-items: center;
+
+}
+.header h1{
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left:3%
+}
+.footer{
+    background-color: green;
+    color: white;
+    height: 33px;
+}
+.container{
+    display: flex;
+    height: 700px;
+}
+.left-sidebar{
+    background-color: yellow;
+    width: 20%
+}
+.main-content{
+    background-color: darkblue;
+    width: 60%;
+    
+    color: white;
+}
+.right-sidebar{
+    background-color: lightgreen;
+    width: 20%;
+}
